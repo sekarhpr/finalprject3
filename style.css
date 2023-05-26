@@ -54,7 +54,7 @@ body {
     color: #2B2B2B;
 }
 
-.section {
+.container {
     margin-top: 220px;
 }
 
@@ -121,13 +121,25 @@ body {
 
 /* Styling for smaller screens */
 @media (max-width: 768px) {
-    .container-fluid {
+    .body {
+        width: 30%;
+    }
+
+    .container {
       padding: 10px;
     }
   
-    .oval {
-      display: none;
+    .title {
+        width: 100%;
     }
+
+    .col {
+        width: 30%;
+      }
+
+    /* .oval {
+      display: none;
+    } */
   }
   
   /* Styling for larger screens */
@@ -141,8 +153,6 @@ body {
       justify-content: space-between;
     }
   
-    .col {
-      width: 30%;
-    }
+    
   }
   
