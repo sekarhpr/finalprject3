@@ -1,0 +1,148 @@
+body {
+    font-family: 'Basic', sans-serif;
+}
+
+.container-fluid {
+    padding: 0 !important;
+    overflow: auto;
+}
+
+.oval {
+    width: 276px;
+    height: 276px;
+    border-radius: 50%;
+    margin-left: -141px;
+    background: #F0F3FA;
+    float: left;
+    position: absolute;
+}
+
+.title {
+    margin-top: 80px !important;
+    margin-bottom: 50px;
+    font-family: 'Basic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    color: #020E35;
+}
+
+.underline {
+    border-bottom: 2px solid #E73587;;
+    /* width: 100px; */
+    display: inline-block;
+}
+
+.box {
+    width: 823px;
+    height: 75px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 120px !important;
+}
+
+.content { 
+    font-family: 'Basic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    color: #2B2B2B;
+}
+
+.section {
+    margin-top: 220px;
+}
+
+
+.section-1 {
+    display: flex;
+    justify-content: space-evenly !important;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 210px !important;
+}
+
+.col {
+    padding: 0;
+}
+
+.card {
+    width: 377px;
+    height: 583px !important;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 20px !important;
+    border-radius: 0 !important;
+    border: none !important;
+    text-align: center;
+}
+
+.card-img {
+    width: 300px;
+    height: 255px;
+}
+
+.btn {
+    width: 140px;
+    height: 40px;
+    margin-top: 60px;
+    border-radius: 0 !important;
+    align-items: center;
+    background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
+}
+
+.btn-text {
+    font-family: 'Basic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;
+    align-items: center;
+    color: #FFFFFF;
+    margin: auto;
+}
+
+.nextbtn {
+    position: absolute;
+    width: 76px;
+    height: 76px;
+    border-radius: 50%;
+    border: 2px solid #FFFFFF;
+    align-items: center;
+    background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
+}
+
+/* Styling for smaller screens */
+@media (max-width: 768px) {
+    .container-fluid {
+      padding: 10px;
+    }
+  
+    .oval {
+      display: none;
+    }
+  }
+  
+  /* Styling for larger screens */
+  @media (min-width: 768px) {
+    .container-fluid {
+      padding: 50px;
+    }
+  
+    .section-1 {
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    .col {
+      width: 30%;
+    }
+  }
+  
